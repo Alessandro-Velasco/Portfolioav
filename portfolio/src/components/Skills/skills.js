@@ -34,7 +34,7 @@ const Skills = () => {
                 <img src={ReactDesign} alt='' className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>React Developer</h2>
-                    <p> From crafting interactive components to architecting dynamic front-end solutions, I thrive in the ever-evolving landscape of web development. My expertise extends to state management, component lifecycle optimization, and integrating third-party APIs, all while adhering to best practices and staying attuned to the latest industry trends.</p>
+                    <p>From crafting interactive components to architecting dynamic front-end solutions, I thrive in the ever-evolving landscape of web development. My expertise extends to state management, component lifecycle optimization, and integrating third-party APIs, all while adhering to best practices and staying attuned to the latest industry trends.</p>
                 </div>
                 
             </div>
