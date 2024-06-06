@@ -48,10 +48,13 @@ const Contact = () => {
             <textarea className='msg' name='message' rows="5" placeholder='Message' ></textarea>
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
             <div className='links'>
+              <a href="https://github.com/Alessandro-Velasco" target="_blank">
              <img src={GithubIcon} alt='Github' className='link' />
-             <img src={InstagramIcon} alt='Instagram' className='link' />
-             <img src={XIcon} alt='X' className='link' />
+             </a>
+             
+             <a href="https://www.linkedin.com/in/alessandro-velasco-2b992263/" target='_blank'>
              <img src={LinkedinIcon} alt='Linkedin' className='link' />
+             </a>
             </div>
         </form>
         
