@@ -10,7 +10,7 @@ const publicPath = path.join(__dirname, 'public');
 app.use(express.static(publicPath));
 
 // Inicia el servidor en el puerto 3000 (o el puerto que desees)
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`Servidor Express en ejecución en el puerto ${PORT}`);
 });
