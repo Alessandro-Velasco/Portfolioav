@@ -18,7 +18,8 @@
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
     "scroll": "^3.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
