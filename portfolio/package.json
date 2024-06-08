@@ -47,5 +47,9 @@
   },
   "devDependencies": {
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
 }
