@@ -1,11 +1,6 @@
 import React,{ useRef } from 'react';
 import './contact.css'
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.webp';
-import Facebook from '../../assets/facebook.png';
 import GithubIcon from '../../assets/github.png'
-import InstagramIcon from '../../assets/instagram.png'
-import XIcon from '../../assets/twitter.png'
 import LinkedinIcon from '../../assets/linkedin.png'
 import emailjs from '@emailjs/browser';
 
@@ -27,17 +22,7 @@ const Contact = () => {
       };
   return (
    <section id='contactPage'>
-    <div id='clients'>
-      <h1 className='contactPageTitle'>My Clients</h1>
-      <p className='clientDesc'>
-        I have had the opportunity to work with a diverse group of companies.
-      </p>
-    </div>
-    <div className='clientImgs'>
-        <img src={Adobe} className='clientImg' />
-        <img src={Microsoft} className='clientImg' />
-        <img src={Facebook} className='clientImg' />
-    </div>
+    
 
     <div id='contact'>
         <h1 className='contactPageTitle'>Contact Me</h1>
